@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFBF98C72BBC0DF00018DFD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98C62BBC0DF00018DFD7 /* main.cpp */; };
-		BFBF98CF2BBC0E0F0018DFD7 /* BlackJack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98CD2BBC0E0F0018DFD7 /* BlackJack.cpp */; };
-		BFBF98D22BBC0E1B0018DFD7 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98D02BBC0E1B0018DFD7 /* Deck.cpp */; };
-		BFBF98D52BBC0E230018DFD7 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98D32BBC0E230018DFD7 /* Player.cpp */; };
-		BFBF98D82BBC23670018DFD7 /* ComputerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98D62BBC23670018DFD7 /* ComputerPlayer.cpp */; };
-		BFBF98DB2BBC23850018DFD7 /* BankerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98D92BBC23850018DFD7 /* BankerPlayer.cpp */; };
+		BFBF98E92BBE09400018DFD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98E82BBE09400018DFD7 /* main.cpp */; };
+		BFBF98F22BBE09C80018DFD7 /* Cointing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBF98F02BBE09C80018DFD7 /* Cointing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BFBF98C12BBC0DF00018DFD7 /* CopyFiles */ = {
+		BFBF98E32BBE09400018DFD7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,22 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BFBF98C32BBC0DF00018DFD7 /* BlackJackV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlackJackV2; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBF98C62BBC0DF00018DFD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BFBF98CD2BBC0E0F0018DFD7 /* BlackJack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlackJack.cpp; sourceTree = "<group>"; };
-		BFBF98CE2BBC0E0F0018DFD7 /* BlackJack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BlackJack.hpp; sourceTree = "<group>"; };
-		BFBF98D02BBC0E1B0018DFD7 /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
-		BFBF98D12BBC0E1B0018DFD7 /* Deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
-		BFBF98D32BBC0E230018DFD7 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		BFBF98D42BBC0E230018DFD7 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
-		BFBF98D62BBC23670018DFD7 /* ComputerPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComputerPlayer.cpp; sourceTree = "<group>"; };
-		BFBF98D72BBC23670018DFD7 /* ComputerPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComputerPlayer.hpp; sourceTree = "<group>"; };
-		BFBF98D92BBC23850018DFD7 /* BankerPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BankerPlayer.cpp; sourceTree = "<group>"; };
-		BFBF98DA2BBC23850018DFD7 /* BankerPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BankerPlayer.hpp; sourceTree = "<group>"; };
+		BFBF98E52BBE09400018DFD7 /* Countingxxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Countingxxx; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBF98E82BBE09400018DFD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFBF98F02BBE09C80018DFD7 /* Cointing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cointing.cpp; sourceTree = "<group>"; };
+		BFBF98F12BBE09C80018DFD7 /* Cointing.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cointing.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFBF98C02BBC0DF00018DFD7 /* Frameworks */ = {
+		BFBF98E22BBE09400018DFD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,75 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFBF98BA2BBC0DF00018DFD7 = {
+		BFBF98DC2BBE09400018DFD7 = {
 			isa = PBXGroup;
 			children = (
-				BFBF98C52BBC0DF00018DFD7 /* BlackJackV2 */,
-				BFBF98C42BBC0DF00018DFD7 /* Products */,
+				BFBF98E72BBE09400018DFD7 /* Countingxxx */,
+				BFBF98E62BBE09400018DFD7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFBF98C42BBC0DF00018DFD7 /* Products */ = {
+		BFBF98E62BBE09400018DFD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFBF98C32BBC0DF00018DFD7 /* BlackJackV2 */,
+				BFBF98E52BBE09400018DFD7 /* Countingxxx */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFBF98C52BBC0DF00018DFD7 /* BlackJackV2 */ = {
+		BFBF98E72BBE09400018DFD7 /* Countingxxx */ = {
 			isa = PBXGroup;
 			children = (
-				BFBF98C62BBC0DF00018DFD7 /* main.cpp */,
-				BFBF98CD2BBC0E0F0018DFD7 /* BlackJack.cpp */,
-				BFBF98D02BBC0E1B0018DFD7 /* Deck.cpp */,
-				BFBF98D32BBC0E230018DFD7 /* Player.cpp */,
-				BFBF98D42BBC0E230018DFD7 /* Player.hpp */,
-				BFBF98D12BBC0E1B0018DFD7 /* Deck.hpp */,
-				BFBF98CE2BBC0E0F0018DFD7 /* BlackJack.hpp */,
-				BFBF98D62BBC23670018DFD7 /* ComputerPlayer.cpp */,
-				BFBF98D72BBC23670018DFD7 /* ComputerPlayer.hpp */,
-				BFBF98D92BBC23850018DFD7 /* BankerPlayer.cpp */,
-				BFBF98DA2BBC23850018DFD7 /* BankerPlayer.hpp */,
+				BFBF98E82BBE09400018DFD7 /* main.cpp */,
+				BFBF98F02BBE09C80018DFD7 /* Cointing.cpp */,
+				BFBF98F12BBE09C80018DFD7 /* Cointing.hpp */,
 			);
-			path = BlackJackV2;
+			path = Countingxxx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFBF98C22BBC0DF00018DFD7 /* BlackJackV2 */ = {
+		BFBF98E42BBE09400018DFD7 /* Countingxxx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBF98CA2BBC0DF00018DFD7 /* Build configuration list for PBXNativeTarget "BlackJackV2" */;
+			buildConfigurationList = BFBF98EC2BBE09400018DFD7 /* Build configuration list for PBXNativeTarget "Countingxxx" */;
 			buildPhases = (
-				BFBF98BF2BBC0DF00018DFD7 /* Sources */,
-				BFBF98C02BBC0DF00018DFD7 /* Frameworks */,
-				BFBF98C12BBC0DF00018DFD7 /* CopyFiles */,
+				BFBF98E12BBE09400018DFD7 /* Sources */,
+				BFBF98E22BBE09400018DFD7 /* Frameworks */,
+				BFBF98E32BBE09400018DFD7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BlackJackV2;
-			productName = BlackJackV2;
-			productReference = BFBF98C32BBC0DF00018DFD7 /* BlackJackV2 */;
+			name = Countingxxx;
+			productName = Countingxxx;
+			productReference = BFBF98E52BBE09400018DFD7 /* Countingxxx */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFBF98BB2BBC0DF00018DFD7 /* Project object */ = {
+		BFBF98DD2BBE09400018DFD7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					BFBF98C22BBC0DF00018DFD7 = {
+					BFBF98E42BBE09400018DFD7 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = BFBF98BE2BBC0DF00018DFD7 /* Build configuration list for PBXProject "BlackJackV2" */;
+			buildConfigurationList = BFBF98E02BBE09400018DFD7 /* Build configuration list for PBXProject "Countingxxx" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,34 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = BFBF98BA2BBC0DF00018DFD7;
-			productRefGroup = BFBF98C42BBC0DF00018DFD7 /* Products */;
+			mainGroup = BFBF98DC2BBE09400018DFD7;
+			productRefGroup = BFBF98E62BBE09400018DFD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFBF98C22BBC0DF00018DFD7 /* BlackJackV2 */,
+				BFBF98E42BBE09400018DFD7 /* Countingxxx */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFBF98BF2BBC0DF00018DFD7 /* Sources */ = {
+		BFBF98E12BBE09400018DFD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBF98D52BBC0E230018DFD7 /* Player.cpp in Sources */,
-				BFBF98D82BBC23670018DFD7 /* ComputerPlayer.cpp in Sources */,
-				BFBF98D22BBC0E1B0018DFD7 /* Deck.cpp in Sources */,
-				BFBF98CF2BBC0E0F0018DFD7 /* BlackJack.cpp in Sources */,
-				BFBF98C72BBC0DF00018DFD7 /* main.cpp in Sources */,
-				BFBF98DB2BBC23850018DFD7 /* BankerPlayer.cpp in Sources */,
+				BFBF98F22BBE09C80018DFD7 /* Cointing.cpp in Sources */,
+				BFBF98E92BBE09400018DFD7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFBF98C82BBC0DF00018DFD7 /* Debug */ = {
+		BFBF98EA2BBE09400018DFD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		BFBF98C92BBC0DF00018DFD7 /* Release */ = {
+		BFBF98EB2BBE09400018DFD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +241,7 @@
 			};
 			name = Release;
 		};
-		BFBF98CB2BBC0DF00018DFD7 /* Debug */ = {
+		BFBF98ED2BBE09400018DFD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -275,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		BFBF98CC2BBC0DF00018DFD7 /* Release */ = {
+		BFBF98EE2BBE09400018DFD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -288,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFBF98BE2BBC0DF00018DFD7 /* Build configuration list for PBXProject "BlackJackV2" */ = {
+		BFBF98E02BBE09400018DFD7 /* Build configuration list for PBXProject "Countingxxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFBF98C82BBC0DF00018DFD7 /* Debug */,
-				BFBF98C92BBC0DF00018DFD7 /* Release */,
+				BFBF98EA2BBE09400018DFD7 /* Debug */,
+				BFBF98EB2BBE09400018DFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBF98CA2BBC0DF00018DFD7 /* Build configuration list for PBXNativeTarget "BlackJackV2" */ = {
+		BFBF98EC2BBE09400018DFD7 /* Build configuration list for PBXNativeTarget "Countingxxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFBF98CB2BBC0DF00018DFD7 /* Debug */,
-				BFBF98CC2BBC0DF00018DFD7 /* Release */,
+				BFBF98ED2BBE09400018DFD7 /* Debug */,
+				BFBF98EE2BBE09400018DFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFBF98BB2BBC0DF00018DFD7 /* Project object */;
+	rootObject = BFBF98DD2BBE09400018DFD7 /* Project object */;
 }
